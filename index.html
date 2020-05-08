@@ -7,6 +7,7 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/08ad0d7929.js" crossorigin="anonymous"></script>
     <style>
         #nav {
             height: 100px;
@@ -46,54 +47,84 @@
 </head>
 
 <body>
+    <!-- navbar and profile pic -->
     <div class="container-fluid">
         <div id="nav"></div>
-        <div class="row">
-            <div class="col text-center">
-                <img src="/home/rudreshwar/Downloads/pictures/my pics/img1.jpg" alt="" class="name">
+        <div class="row text-center">
+            <div class="col-12">
+                <img src="/home/rudreshwar/myPortfolio/rj.jpg" alt="" class="name">
             </div>
         </div>
     </div>
-
+<!-- Gerneral Details -->
     <div class="container">
         <h1 class="font-weight-bolder text-center">Rudreshwar Jha</h1>
-        <h5 class="text-center font-weight-bolder">Full Stack Developer</h5>
+        <h4 class="font-weight-bolder text-center">Front-End Developer</h4>
         <!-- **************** -->
-        <div class="row ">
-            <div class="col-5 text-right">
-                <div class="">Banglore,India</div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="col-12 offset-4">
+                    <div class=""><i class="fas fa-map-marker-alt"></i> Bengaluru, India</div>
+                </div>
             </div>
-            <div class="col-2 text-center">
-                <div class="">+91 7406637079</div>
+            <div class="col-lg-3">
+                <div class="col-12 offset-4">
+                    <div class=""><i class="fas fa-phone-alt"></i> +91 7406637079</div>
+                </div>
             </div>
-            <div class="col-4">
-                <div class="">rudreshwarjha071@gmail.com</div>
-            </div>
-        </div>
-        <!-- *******All platform links******** -->
-        <div class="row pt-4 ">
-            <div class="col-3">
-                <a href="https://www.linkedin.com/in/rudreshwar-jha-69a722154/"> <img
-                        src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" class="clickIcon"></a>
-            </div>
-            <div class="col-3">
-                <a href="https://github.com/rudresh051">
-                    <img src="https://as2.ftcdn.net/jpg/02/50/30/59/500_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg"
-                        alt="" class="clickIcon">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="https://twitter.com/RudreshwarJha">
-                    <img src="https://t4.ftcdn.net/jpg/01/15/63/37/240_F_115633770_eW4YFq7wORcielto9JPDsqAKys7Y54HZ.jpg"
-                        alt="" class="clickIcon">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="https://www.hackerrank.com/jharudreshwar17?hr_r=1">
-                    <img src="https://hrcdn.net/fcore/assets/brand/h_mark_sm-966d2b45e3.svg" alt="" class="clickIcon">
-                </a>
+            <div class="col-lg-4">
+                <div class="col-12 offset-3 offset-md-3">
+                    <div class=""><i class="fas fa-envelope"></i> rudreshwarjha071@gmail.com</div>
+                </div>
             </div>
         </div>
+        <!-- *******All tech-platform links and social media links******** -->
+        <div class="row offset-1">
+            <div class="col-3">
+                <div class="row">
+                    <div class="col offset-lg-9 offset-md-3 offset-sm-3">
+                        <a href="https://www.linkedin.com/in/rudreshwar-jha-69a722154/"> <img
+                            src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" class="clickIcon"></a>
+                    <!-- ok1 -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="row">
+                    <div class="col offset-lg-6">
+                        <a href="https://github.com/rudresh051">
+                            <img src="https://as2.ftcdn.net/jpg/02/50/30/59/500_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg"
+                                alt="" class="clickIcon">
+                        </a>
+                        <!-- ok2 -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="row">
+                    <div class="col offset-lg-2">
+                        <a href="https://twitter.com/RudreshwarJha">
+                            <img src="https://t4.ftcdn.net/jpg/01/15/63/37/240_F_115633770_eW4YFq7wORcielto9JPDsqAKys7Y54HZ.jpg"
+                                alt="" class="clickIcon">
+                        </a>
+                        <!-- ok3 -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col offset-lg-0">
+                        <a href="https://www.hackerrank.com/jharudreshwar17?hr_r=1">
+                            <img src="https://hrcdn.net/fcore/assets/brand/h_mark_sm-966d2b45e3.svg" alt="" class="clickIcon">
+                        </a>
+                        <!-- ok4 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <h5 class="text-center pt-5">
             A passionate Software Developer trained in Front-End Development, Data Structure and Algorithm at Masai
             School Intensive Bootcamp. Looking forward to join a compay where I shall be able to contribute towards
@@ -137,31 +168,54 @@
         <hr>
         <h1 class="text-center mt-5">Proficiencies</h1>
         <!-- ******************Proficiencies************ -->
-        <div class="card-group mt-5">
-            <div class="card">
-                <img src="https://www.iflexion.com/sites/all/themes/iflexion/images/vis-frontend-1.png"
-                    class="card-img-top" alt="..." id="prof1">
-                <div class="card-body">
-                    <h5 class="card-title">Front-End Development</h5>
+        <!-- <div class="card-group mt-5"> -->
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 offset-6">
+                                <img src="https://www.iflexion.com/sites/all/themes/iflexion/images/vis-frontend-1.png"
+                                    class="card-img-top" alt="..." id="prof1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 offset-6 mt-2">
+                                Front-End Development
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="https://as2.ftcdn.net/jpg/02/90/40/93/500_F_290409324_KrB9RE2k6wEWuZMVDxZiSstxebyaSHad.jpg"
-                    class="card-img-top" alt="..." id="prof2">
-                <div class="card-body">
-                    <h5 class="card-title">Data Structure & Algorithm</h5>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 offset-lg-1">
+                                <img src="https://as2.ftcdn.net/jpg/02/90/40/93/500_F_290409324_KrB9RE2k6wEWuZMVDxZiSstxebyaSHad.jpg"
+                                    class="card-img-top" alt="..." id="prof2">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 mt-2">
+                                Data Structures & Algorithm
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <hr>
-            <!-- ********************Projects***************** -->
         </div>
+        <hr>
+        <!-- ********************Projects***************** -->
+        <!-- </div> -->
         <hr>
         <h1 class="text-center mt-5">Projects</h1>
 
         <div class="card-group mt-5">
             <div class="card">
                 <!-- <img src="/home/rudreshwar/myPortfolio/p2.png" class="card-img-top" alt="..."> -->
-                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p2.png" alt="" class="card-img-top">
+                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p2.png" alt=""
+                    class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title text-center">Chess Game</h5>
                 </div>
@@ -172,7 +226,8 @@
             </div>
             <div class="card">
                 <!-- <img src="/home/rudreshwar/myPortfolio/p1.png" class="card-img-top" alt="..."> -->
-                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p1.png" alt="" class="card-img-top">
+                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p1.png" alt=""
+                    class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title text-center">Meal DB</h5>
                 </div>
@@ -180,6 +235,12 @@
                     <button class="btn btn-dark ">Github</button>
                 </a>
             </div>
+        </div>
+        <div class="mt-5 text-center">
+            <a href="https://github.com/rudresh051">
+                <h5>@rudresh051 on Github</h5>
+            </a>
+            <img src="/home/rudreshwar/myPortfolio/commit.png" alt="">
         </div>
     </div>
 

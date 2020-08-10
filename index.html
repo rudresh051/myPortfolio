@@ -17,7 +17,9 @@
 
         .name {
             height: 200px;
-            width: 200px;   
+            width: 200px;
+            border-radius: 50%;
+            border: 10px solid cadetblue;
         }
 
         div {
@@ -42,6 +44,18 @@
         #prof2 {
             height: 100px;
             width: 100px;
+        }
+
+        .rounded-circle {
+            border-radius: 50%;
+            border: 20px solid rgb(5, 117, 165);
+            height: 200px;
+            width: 200px;
+
+        }
+
+        #summ {
+            background-color: aliceblue;
         }
     </style>
 </head>
@@ -79,7 +93,7 @@
             </div>
         </div>
         <!-- *******All tech-platform links and social media links******** -->
-        <div class="row offset-1">
+        <div class="row offset-1 mt-4">
             <div class="col-3">
                 <div class="row">
                     <div class="col offset-lg-9 offset-md-3 offset-sm-3">
@@ -169,8 +183,8 @@
                 <div class="row">
                     <div class="offset-4 offset-sm-4 offset-md-2 offset-lg-4">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
-                        alt="" class="techStack">
-                    <h5 class="ml-1">BootStrap</h5>
+                            alt="" class="techStack">
+                        <h5 class="ml-1">BootStrap</h5>
                     </div>
                 </div>
             </div>
@@ -179,8 +193,8 @@
                 <div class="row">
                     <div class="offset-4  offset-sm-4 offset-md-3 offset-lg-4">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=""
-                        class="techStack">
-                    <h5>Javascript</h5>
+                            class="techStack">
+                        <h5>Javascript</h5>
                     </div>
                 </div>
             </div>
@@ -188,9 +202,11 @@
             <div class="col-6 col-sm-6 col-md-4 col-lg-3  mt-5 mt-sm-5">
                 <div class="row">
                     <div class="offset-4 offset-sm-4 offset-md-4 offset-lg-4">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/1280px-JQuery-Logo.svg.png"
-                        alt="" class="techStack">
-                    <h5 class="ml-3">jQuery</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnHOQ2LgjYzpbfhR_6qZsejqnaEF98H_0GOGHlfMfYoWD6_1S9&usqp=CAU"
+                            alt="" class="techStack">
+                        <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/1280px-JQuery-Logo.svg.png"
+                            alt="" class="techStack"> -->
+                        <h5 class="ml-3">jQuery</h5>
                     </div>
                 </div>
             </div>
@@ -199,8 +215,8 @@
                 <div class="row">
                     <div class="offset-4  offset-sm-4 offset-md-2 offset-lg-5">
                         <img src="https://as1.ftcdn.net/jpg/03/04/97/12/500_F_304971233_mQ4xlfnBGSszgzJPYzQnZtWI04ZNmuuP.jpg"
-                        alt="" class="techStack">
-                    <h5 class="ml-3">React</h5>
+                            alt="" class="techStack">
+                        <h5 class="ml-3">React</h5>
                     </div>
                 </div>
             </div>
@@ -208,9 +224,9 @@
             <div class="col-6 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-5">
                 <div class="row">
                     <div class="offset-4 offset-sm-4 offset-md-3 offset-lg-4">
-                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
-                        alt="" class="techStack">
-                    <h5 class="ml-3">Redux</h5>
+                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt=""
+                            class="techStack">
+                        <h5 class="ml-3">Redux</h5>
                     </div>
                 </div>
             </div>
@@ -260,9 +276,20 @@
         <!-- ********************Projects***************** -->
         <!-- </div> -->
         <hr>
-        <h1 class="text-center mt-5">Projects</h1>
+        <h1 class="text-center mt-5 ">Projects</h1>
 
-        <div class="card-group mt-5">
+        <div class="card-group mt-5 mb-5">
+            <div class="card">
+                <!-- <img src="/home/rudreshwar/myPortfolio/p1.png" class="card-img-top" alt="..."> -->
+                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p1.png" alt=""
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Meal DB</h5>
+                </div>
+                <a href="https://github.com/rudresh051/masai-sprint-3" class="text-center">
+                    <button class="btn btn-dark ">Github</button>
+                </a>
+            </div>
             <div class="card">
                 <!-- <img src="/home/rudreshwar/myPortfolio/p2.png" class="card-img-top" alt="..."> -->
                 <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p2.png" alt=""
@@ -277,24 +304,97 @@
             </div>
             <div class="card">
                 <!-- <img src="/home/rudreshwar/myPortfolio/p1.png" class="card-img-top" alt="..."> -->
-                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p1.png" alt=""
+                <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/p0.png" alt=""
                     class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Meal DB</h5>
+                    <h5 class="card-title text-center">Cycling</h5>
                 </div>
-                <a href="https://github.com/rudresh051/masai-sprint-3" class="text-center">
+                <a href="https://github.com/rudresh051/masai-sprint-1" class="text-center">
                     <button class="btn btn-dark ">Github</button>
                 </a>
             </div>
         </div>
-        <div class="mt-5 text-center">
-            <a href="https://github.com/rudresh051">
-                <h5>@rudresh051 on Github</h5>
-            </a>
-            <img src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/commit.png" alt="">
+        <div class="card-group mt-5 mb-5">
+            <div class="card">
+                <img src="https://via.placeholder.com/200x92" alt=""
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-center">#</h5>
+                </div>
+                <a href="https://github.com/rudresh051/masai-sprint-3" onclick="return false" class="text-center">
+                    <button class="btn btn-dark ">Github</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200x92" alt=""
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-center">#</h5>
+                </div>
+                <a href="https://github.com/rudresh051/masai-sprint-2" onclick="return false" class="text-center">
+                    <button class="btn btn-dark">Github</button>
+                </a>
+
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200x92" alt=""
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-center">#</h5>
+                </div>
+                <a href="https://github.com/rudresh051/masai-sprint-1" onclick="return false" class="text-center ">
+                    <button class="btn btn-dark ">Github</button>
+                </a>
+            </div>
         </div>
     </div>
+    <!-- Summary of work at Masai school -->
+    <div id="summ" class="mt-5 mb-5 pb-5 ">
+        <h1 class="text-center font-weight-bolder">What I have completed</h1>
+        <div class="container-fluid my-3 row">
+            <div class="text-center col-12 col-sm-12 col-md-6 col-lg-3 p-4">
+                <div class="mt-1 mx-auto p-2 rounded-circle">
+                    <div class="text-center font-weight-bolder h2 mt-5">1000+</div>
+                </div>
+                <div class="">
+                    <div class="mt-2 h3 font-weight-bolder">Hours</div>
+                    <div class="mt-1  h3 font-weight-bolder">Coding</div>
+                </div>
+            </div>
 
+            <div class="text-center col-12 col-sm-12 col-md-6 col-lg-3 p-4" style="width: 250px;">
+                <div class="mt-1 mx-auto p-2 rounded-circle">
+                    <div class="text-center font-weight-bolder h2 mt-5">100+</div>
+                </div>
+                <div class="mt-2  h3 font-weight-bolder">HackerRank
+                </div>
+                <div class="mt-1 h3 font-weight-bolder ">DS Problems</div>
+            </div>
+
+            <div class="text-center col-12 col-sm-12 col-md-6 col-lg-3 p-4" style="width: 250px;">
+                <div class="mt-1 mx-auto p-2 rounded-circle">
+                    <div class="text-center font-weight-bold h2 mt-5">250+</div>
+                </div>
+                <div class="mt-2  h3 font-weight-bolder">Git</div>
+                <div class="mt-1 h3 font-weight-bolder">Commits</div>
+            </div>
+
+            <div class="text-center col-12 col-sm-12 col-md-6 col-lg-3 p-4" style="width: 250px;">
+                <div class="mt-1 mx-auto p-2 rounded-circle">
+                    <div class="text-center font-weight-bold h2 mt-5">100+</div>
+                </div>
+                <div class="mt-2 h3 font-weight-bolder ">Hours</div>
+                <div class="mt-1 h3 font-weight-bolder ">Soft Skills</div>
+            </div>
+        </div>
+        <div class="mt-5 text-center ">
+            <a href="https://github.com/rudresh051">
+                <!-- <h5>@rudresh051 on Github</h5> -->
+            </a>
+            <img width="100%" src="https://raw.githubusercontent.com/rudresh051/myPortfolio/master/commit1.png" alt="">
+            <!-- <img  width="100%" src="/home/rudreshwar/myPortfolio/commit1.png" alt=""> -->
+        </div>
+    </div>
 </body>
 
 </html>
